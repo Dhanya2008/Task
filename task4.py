@@ -6,4 +6,5 @@ if ball=="blue" or ball=="green": #logical operator
     print("You have won: ",blue)
 else:
     print("You have won: ",white)
-print("The lcm of green and white: ",green & white) #bitwise operator
+print(blue | white)#bitwise operator
+print(green & white)
