@@ -1,8 +1,8 @@
-blue=100
+blue=100 #assignment operator
 green=100
-white=blue+green
+white=blue+green #arithmetic operator
 ball=input("Give the colour of the ball:")
-if ball=="blue" or ball=="green":
+if ball=="blue" or ball=="green": #logical operator
     print("You have won: ",blue)
 else:
     print("You have won: ",white) 
