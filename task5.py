@@ -8,13 +8,15 @@ seat=input("Enter your preferred seat: ")
 if seat=="sleeper" and coach=="ac coach":
     print("Your ticket has been confirmed")
     print("The total cost will be: ",sleeper+ac_coach)
-if seat=="sleeper" and coach=="non ac coach":
+elif seat=="sleeper" and coach=="non ac coach":
     print("Your ticket has been confirmed")
     print("The total cost will be: ",sleeper+non_ac_coach)
-if seat=="general"and coach=="ac coach":
+elif seat=="general"and coach=="ac coach":
     print("Your ticket has been confirmed")
     print("The total cost will be: ",general+ac_coach)
-if seat=="general" and coach=="non ac coach":
+elif seat=="general" and coach=="non ac coach":
     print("Your ticket has been confirmed")
     print("The total cost will be: ",general+non_ac_coach)
+else:
+    print("Sorry! Your choice is invalid") 
 print("Thank you for choosing Vande Bharat")
