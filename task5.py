@@ -1,10 +1,10 @@
 print("Vande Bharat.")
 ac_coach=500
 non_ac_coach=300
-coach=input("Enter your coach (ac/non ac): ")
+coach=input("Enter your coach (ac/non ac): ") #coach
 sleeper=450
 general=250
-seat=input("Enter your preferred seat (general/sleeper): ")
+seat=input("Enter your preferred seat (general/sleeper): ") #seat
 if seat=="sleeper" and coach=="ac":
     print("The ticket cost will be: ",sleeper+ac_coach)
 elif seat=="sleeper" and coach=="non ac":
@@ -15,12 +15,12 @@ elif seat=="general" and coach=="non ac":
     print("The ticket cost will be: ",general+non_ac_coach)
 else:
     print("Sorry! Your choice is invalid.")
-seat_no=int(input("Enter your  preferred seat no: "))
+seat_no=int(input("Enter your  preferred seat no: ")) #seat no
 if seat_no>=1 and seat_no<=50:
     print("Your ticket is confirmed.")    
 else:
     print("The is seat unavailable. Kindly choose another seat.") 
-meal=input("Choose your preferred meal (breakfast/lunch/dinner): ")
+meal=input("Choose your preferred meal (breakfast/lunch/dinner): ") #meal
 if meal=="breakfast" or meal=="lunch" or meal=="dinner":
     print("Your complementary meal order is confirmed.")
 else:
