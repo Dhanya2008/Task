@@ -50,7 +50,7 @@ if choose_shampoo=="Meera":
     discount=10
     disc_price=(no_of_meera_shampoo*price_meera)*10/100
     print("Total price: ",no_of_meera_shampoo*price_meera)
-    print("Congrats! you have won a discount of 10%, and a free milkbikis biscuit pack of rupees:10")
+    print("Congrats! you have won a discount of 10%, and a free milkbikis biscuit pack of rupees:5")
     print("Final price (Discounted):",(no_of_meera_shampoo*price_meera)-disc_price)
 elif choose_shampoo=="Pilgrim":
     print("Manufacturing date: 03/05/25")
@@ -59,7 +59,7 @@ elif choose_shampoo=="Pilgrim":
     discount=10
     disc_price=(no_of_pilgrim_shampoo*price_pilgrim)*10/100
     print("Total price: ",no_of_pilgrim_shampoo*price_pilgrim)
-    print("Congrats! you have won a discount of 10%, and a free mariegold biscuit pack of rupees:10")
+    print("Congrats! you have won a discount of 10%, and a free mariegold biscuit pack of rupees:5")
     print("Final price (Discounted):",(no_of_pilgrim_shampoo*price_pilgrim)-disc_price)
 elif choose_shampoo=="Himalayas":
     print("Manufacturing date: 04/06/25")
@@ -68,7 +68,7 @@ elif choose_shampoo=="Himalayas":
     discount=10
     disc_price=(no_of_hima_shampoo*price_himalayas)*10/100
     print("Total price: ",no_of_hima_shampoo*price_himalayas)
-    print("Congrats! you have won a discount of 10%, and a free goodday biscuit pack of rupees:10")
+    print("Congrats! you have won a discount of 10%, and a free goodday biscuit pack of rupees:5")
     print("Final price (Discounted):",(no_of_hima_shampoo*price_himalayas)-disc_price)
 elif choose_shampoo=="Sunsilk":
     print("Manufacturing date: 05/07/25")
@@ -77,11 +77,11 @@ elif choose_shampoo=="Sunsilk":
     discount=10
     disc_price=(no_of_sunsilk_shampoo*price_sunsilk)*10/100
     print("Total price: ",no_of_sunsilk_shampoo*price_sunsilk)
-    print("Congrats! you have won a discount of 10%, and a free oreo biscuit pack of rupees:10")
+    print("Congrats! you have won a discount of 10%, and a free oreo biscuit pack of rupees:5")
     print("Final price (Discounted):",(no_of_sunsilk_shampoo*price_sunsilk)-disc_price)
 else:
-    print("Try these shampoos (Meera/Pilgrim/Himalayas/Sunsilk).")
+    print("Try these shampoos (Meera/Pilgrim/Himalayas/Sunsilk): ")
 print("Thank you for shopping with us..")
 print("Please give us your feedback in our website (www.dhanyasupermarket.com)")
     
-    
+
